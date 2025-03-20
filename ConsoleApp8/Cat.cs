@@ -8,6 +8,10 @@ namespace ConsoleApp8
 {
     public class Cat : Animal
     {
-        public Cat() { }
+        public void Meow()
+        {
+            Console.WriteLine("This cat meows");
+        }
+
     }
 }
