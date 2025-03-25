@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppExample", "ConsoleAppExample\ConsoleAppExample.csproj", "{38C631FA-E590-4548-86B4-2D3E89E45834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppExample", "ConsoleAppExample\ConsoleAppExample.csproj", "{38C631FA-E590-4548-86B4-2D3E89E45834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{945699F5-8A31-4F6B-858C-985146C92944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{945699F5-8A31-4F6B-858C-985146C92944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{9DFF13FF-4E71-44C1-BF7C-E0B9F5FFD1D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{9DFF13FF-4E71-44C1-BF7C-E0B9F5FFD1D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{2352EFD1-06C6-4EED-922F-06113191D24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{2352EFD1-06C6-4EED-922F-06113191D24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp5", "ConsoleApp5\ConsoleApp5.csproj", "{01C7636E-A4FD-4ABC-A03C-9087017B57F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "ConsoleApp5\ConsoleApp5.csproj", "{01C7636E-A4FD-4ABC-A03C-9087017B57F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp7", "ConsoleApp7\ConsoleApp7.csproj", "{C1790BFA-44B4-414C-9F47-92D470BF34BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp7", "ConsoleApp7\ConsoleApp7.csproj", "{C1790BFA-44B4-414C-9F47-92D470BF34BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "ConsoleApp8\ConsoleApp8.csproj", "{1F751C03-F4EA-4888-8A3D-D475FDFCD0D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp8", "ConsoleApp8\ConsoleApp8.csproj", "{1F751C03-F4EA-4888-8A3D-D475FDFCD0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismExample", "PolymorphismExample\PolymorphismExample.csproj", "{7C519F82-460D-45CA-85B4-9CE7F46CB519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1F751C03-F4EA-4888-8A3D-D475FDFCD0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F751C03-F4EA-4888-8A3D-D475FDFCD0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F751C03-F4EA-4888-8A3D-D475FDFCD0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C519F82-460D-45CA-85B4-9CE7F46CB519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C519F82-460D-45CA-85B4-9CE7F46CB519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C519F82-460D-45CA-85B4-9CE7F46CB519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C519F82-460D-45CA-85B4-9CE7F46CB519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
