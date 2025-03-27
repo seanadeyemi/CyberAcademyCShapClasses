@@ -3,13 +3,26 @@
 
 using AbstractionWithInterfaces;
 
-Jungle jungle = new Jungle();
+IAnimal dog3 = new Dog();
 
-Dog doggy = new Dog();
-
-jungle.ForceAnimalsToMakeSound(doggy);
+Jungle jungle = new Jungle(new Dog());
 
 
+Dog dog1 = new Dog();
+
+jungle.ForceAnimalsToMakeSound(dog1);
+
+
+IAnimal dog2 = new Dog();
+dog2.MakeSound();
+
+new Dog().MakeSound();
+
+jungle.MakeAnimalMakeSound();
+
+
+
+    
 Console.ReadKey();
 
 
